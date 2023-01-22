@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-modern {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ced4aa;
+  background-color: #484e47;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+}
+
+.btn-modern:hover {
+  color: #484e47;
+  background-color: #ced4aa;
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.76);
+}
